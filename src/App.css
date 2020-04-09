@@ -1,0 +1,126 @@
+.errorPath {
+  width: 250px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-size: 20px;
+  margin: 20px auto;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.19), 0 4px 4px rgba(0, 0, 0, 0.23);
+}
+
+.MuiButton-contained:hover {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  background-color: #d5d5d5;
+}
+
+.MuiButton-root:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.MuiButton-contained {
+  color: rgba(0, 0, 0, 0.87);
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  background-color: #e0e0e0;
+}
+
+.MuiButton-root {
+  color: rgba(0, 0, 0, 0.87);
+  padding: 6px 16px;
+  font-size: 0.875rem;
+  min-width: 64px;
+  box-sizing: border-box;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+}
+
+.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.nav__item {
+  display: inline-block;
+  width: 50%;
+  margin-top: 20px;
+  color: white;
+  background-color: #30ddd2;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav__item--active {
+  border-bottom: 2px solid red;
+}
+
+.nav__item:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.timerWrapper {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 100%;
+  box-shadow: 0 7px 7px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.23);
+  font-size: 24px;
+  font-weight: 600;
+  color: blue;
+}
+
+.linkBackWrapper {
+  width: fit-content;
+  margin: 30px auto;
+}
+
+th,td {
+  text-align: center !important;
+}
